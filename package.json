@@ -1,0 +1,24 @@
+{
+  "name": "assignment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "ashley@codecapers.com.au",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Data-Wrangling-with-JavaScript/Chapter-7/issues"
+  },
+  "homepage": "https://github.com/Data-Wrangling-with-JavaScript/Chapter-7#readme",
+  "dependencies": {
+    "bfj": "^5.1.1",
+    "express": "^4.17.1",
+    "mongodb": "^4.1.4",
+    "nodemon": "^2.0.15",
+    "papaparse": "^5.3.1",
+    "stream": "0.0.2"
+  }
+}
