@@ -1,0 +1,68 @@
+extends layout
+
+block content
+  br
+  h2 Import CSV file using NodeJS and MongoDB
+  br
+  p
+   a(href='javascript:void(0)' class='btn btn-primary' id='importdata') Import CSV
+   | &nbsp;&nbsp;&nbsp;
+   a(href='javascript:void(0)' class='btn btn-primary' id='fetchdata') Fetch Data
+  br
+  p#message.alert.alert-success(style='display:none')
+  br
+  table.table.table-bordered
+    thead
+        tr
+            th Sr No.
+            th Strategy_Trade
+            th uniqueID
+            th Quantity
+            th C4
+            th Symbol_of_contract
+            th C7
+            th soldOrBought
+            th C9
+            th C10
+            th C11
+            th C12
+            th C13
+            th C14
+            th C15
+            th UID
+            th C17
+            th C18
+            th C19
+            th C20
+            th C21
+            th TraderID
+            th RealPrice
+            th expectedPrice
+            th NoOfContracts
+            th C26
+            th C27
+            th C28
+            th C29
+            th C30
+            th C31
+            th C32
+            th C33
+            th C34
+            th C35
+            th C36
+            th C37
+            th C38
+            th C39
+            th C40
+            th C41
+            th C42
+            th C43
+            th C44
+            th C45
+            th C46
+            th C47
+            th C48
+            th C49
+    tbody#trdata
+        tr
+            td(colspan='3') Click on <strong>Import CSV</strong> button to import and save data to MongoDB. <br />Click on <strong>Fetch Data</strong> button to display data from database
